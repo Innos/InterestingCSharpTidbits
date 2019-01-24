@@ -18,7 +18,7 @@
         {
             try
             {
-                // Does not propagate Exceptions by itself
+                // Starts execution, but does not propagate Exceptions by itself
                 var task = SomeAsyncMethod();
 
                 // Will propagate exceptions caused during the execution of the task as an Aggregate exception
